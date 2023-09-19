@@ -35,7 +35,7 @@ class App extends Component {
     let email = this.state.user.email;
     let password = this.state.user.password;
 
-    if (email == "eduardo.lino@pucpr.br" && password == "123456") {
+    if (email === "eduardo.lino@pucpr.br" && password === "123456") {
       authenticationStatus = "Acessado com sucesso!";
     } else {
       authenticationStatus = "Usuário ou senha incorretos";
